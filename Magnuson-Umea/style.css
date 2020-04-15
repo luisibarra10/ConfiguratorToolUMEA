@@ -1,0 +1,188 @@
+﻿html {
+    width: 100vw;
+    height: 100vh;
+   
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+
+#featuresContainer {
+    position: relative;
+}
+#messageChoice {
+    
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 220px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 0px;
+}
+
+
+#optionsContainer {
+    position: relative;
+    
+    height: 100vh;
+    margin-top: 200px;
+}
+
+#geometryChoice {
+    width: 400px;
+  
+   margin-right: 50px;
+   height: 300px;
+   margin-bottom: 30px;
+   margin-top: -20px;
+}
+
+.btn-geo {
+    background-color: #ccc;
+    margin-top: 10px;
+    font-size: 21px;
+    width: 300px;
+    text-align: left;
+    box-shadow: -2px 7px 10px -6px rgba(0,0,0,0.75);
+    display: block;
+}
+
+#colorChoice {
+    padding-right: 40px;
+    width: 1000px;
+    margin-top:100px;
+    margin-left: -550px;
+}
+
+
+
+#babylonCanvas {
+    position: relative;
+    width: 700px;
+    height:550px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border: none;
+}
+
+.color-item {
+    
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: -2px 7px 10px -6px rgba(0,0,0,0.75);
+    margin-right: 10px;
+}
+
+.list-group {
+    display: inline;
+    text-align: center;
+    color: white;
+}
+
+.btn-feat {
+    margin-top: 50px;
+
+    margin-left: 100px;
+    border-radius: 5%;
+    
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #005A5A;
+    width: 250px;
+    height: 50px;
+    box-shadow: -2px 7px 10px -6px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+    .btn-feat:hover {
+        background-color: #000;
+       
+    }
+
+.btn-geo:hover {
+    background-color: #DCDCDF;
+}
+
+/*COLORS*/
+
+.img-item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: -2px 7px 10px -6px rgba(0,0,0,0.75);
+    margin-right: 10px;
+}
+
+    .img-item:hover {
+        opacity: 0.8;
+    }
+
+img#color-brightbondSilver.img-item:hover {
+background-color: blue;
+}
+
+
+
+
+/*HOVER PANELS*/
+.img-item2 {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: -2px 7px 10px -6px rgba(0,0,0,0.75);
+    margin-right: 10px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+img#label-1.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-2.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-3.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-4.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-5.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-6.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-7.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-8.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-9.img-item2:hover {
+    background-color: #434348;
+}
+
+img#label-10.img-item2:hover {
+    background-color: #434348;
+}
